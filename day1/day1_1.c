@@ -33,7 +33,6 @@ int main() {
     magnitude = atoi(linha + 1);
 
     int inicio = pos;
-    int zeros_nesta_linha = 0;
 
     for (int i = 0; i < magnitude; i++) {
       if (direction == 'L') {
@@ -44,7 +43,6 @@ int main() {
 
       if (pos == 0) {
         p2++;
-        zeros_nesta_linha++;
       }
     }
     if (pos == 0) {
